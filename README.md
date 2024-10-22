@@ -7,4 +7,5 @@ The utility helps to verify that you can connect to a PostgreSQL database and ge
 git clone git@github.com:stevenstr/get-pg-schema.git
 cd ./get-pg-schema
 docker-compose up
+go run .\get-pg-schema.go localhost 5432 stevenstr pass master
 ```
