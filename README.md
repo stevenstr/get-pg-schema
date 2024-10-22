@@ -9,3 +9,8 @@ cd ./get-pg-schema
 docker-compose up
 go run .\get-pg-schema.go localhost 5432 stevenstr pass master
 ```
+
+# Usage
+```sh
+get-pg-schema.exe localhost 5432 stevenstr pass master
+```
